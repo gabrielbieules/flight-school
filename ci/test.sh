@@ -2,8 +2,4 @@
 
 set -e -x
 
-pushd flight-school
-  bundle install
-  bundle exec rspec
-popd
-
+curl -i https://api.run.pivotal.io/v2/info
